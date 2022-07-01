@@ -755,6 +755,7 @@ body {
 .header {
   position: fixed;
   z-index: 50;
+  height: 3.625rem;
   width: 100%;
 }
 .header__container {
@@ -883,6 +884,10 @@ body {
     transform: rotate(45deg);
     bottom: calc(50% - 1px);
   }
+}
+
+* {
+  scroll-behavior: smooth;
 }
 
 .catalog__container {
